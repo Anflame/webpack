@@ -48,11 +48,6 @@ module.exports = {
         },
       },
       {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/,
-      },
-      {
         test: /\.(s[ac]|c)ss$/i,
         use: [
           MiniCssExtractPlugin.loader,
